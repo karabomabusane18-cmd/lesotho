@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>By: Mabusane Karabo</header>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Tourism</title>
+    <h1 class="three">GALLERY</h1>
+</head>
+<body>
+    <main>
+        <nav>
+            <li class="six">
+                <ul><a href="index.html">Home</a></ul>
+                <ul><a href="Tourism.html">Tourism</a></ul>
+                <ul><a href="destinations.html">destinations</a></ul>
+                <ul><a href="activities.html">activities</a></ul>
+                <ul><a href="accomodation.html">accomodation</a></ul>
+                <ul><a href="gallery.html">gallery</a></ul>
+                <ul><a href="contact.html">contact</a></ul>
+                <input type="search" formmethod="get" id="src" placeholder="Search....">
+            </li><br>
+        </nav>
+    </main>
+    <div style="text-align:center">
+        <h2>Tapped Image Gallery</h2>
+        <p>Tap on the images to view</p>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="Ski.jpg" alt="Skiing" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="litolobonya.jpg" alt="litolobonya" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Huts.jpg" alt="Huts" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Maluti.jpg" alt="Maluti" style="width:100%" onclick="myFunction(this);">
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="tsehlanyane.jpg" alt="tsehlanyane" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Maseru.jpg" alt="Maseru" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="shutt.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="women_initiation.jpg" alt="women_initiation" style="width:100%" onclick="myFunction(this);">
+        </div>
+    </div>
+    <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+    </div>
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="accomodation.html">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="Tourism.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="destinations.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="accomodation.html">4</a></li>
+        <li class="page-item"><a class="page-link" href="gallery.html">5</a></li>
+        <li class="page-item"><a class="page-link" href="contact.html">6</a></li>
+        <li class="page-item"><a class="page-link" href="contact.html">Next</a></li>
+        <button onclick="darkmode()">Toggle dark mode</button>
+    </ul>
+    <script src="script.js"></script>
+</body>
+<footer><a href="karabomabusane18@gmail.com">karabomabusane18@gmail.com</a></footer>
+</html>

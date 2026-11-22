@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>By: Mabusane Karabo</header>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Tourism</title>
+    <h1 class="twenty">BOOKINGS</h1>
+</head>
+<body>
+    <main>
+        <nav>
+            <li class="six">
+                <ul><a href="index.html">Home</a></ul>
+                <ul><a href="Tourism.html">Tourism</a></ul>
+                <ul><a href="destinations.html">destinations</a></ul>
+                <ul><a href="activities.html">activities</a></ul>
+                <ul><a href="accomodation.html">accomodation</a></ul>
+                <ul><a href="gallery.html">gallery</a></ul>
+                <ul><a href="contact.html">contact</a></ul>
+                <input type="search" formmethod="get" id="src" placeholder="Search....">
+            </li><br>
+        </nav>
+        <div class="forty">
+            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                <fieldset>
+                    <legend>Registration:</legend>
+                    <div class="mb-3 mt-3">
+                        <label for="uname" class="form-label">Username:</label><br>
+                        <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required><br>
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <label for="number" class="form-label">Phone Number:</label><br>
+                        <select class="form-select">
+                        <option>+266</option>
+                        <option>+27</option>
+                        <input type="number" class="form-control" id="number" placeholder="Enter Number" name="number" required><br>
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <label for="email" class="form-label">Email:</label><br>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"><br>
+                    </div>
+                    <div class="mb-3">
+                        <label for="pwd" class="form-label">Password:</label><br>
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" minlength="8" required><br>
+                    </div>
+                    <div class="mb-3">
+                        <label for="pwd" class="form-label">Confirm Password:</label><br>
+                        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" minlength="8" required><br>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" id="myCheck" name="remember" required><br>
+                        <label class="form-check-label" for="myCheck">I agree on access of information.</label><br>
+                    </div>
+                    <select class="form-select">
+                        <option>Male</option>
+                        <option>Female</option>
+                    </select><br>
+                    <label for="comment">Information About you:</label><br>
+                    <textarea class="form-control" rows="5" id="comment" name="text"></textarea><br>
+                    <button type="submit" formmethod="post" onclick="submit()" class="btn btn-warning">Submit</button><br>
+                </fieldset>
+            </form>
+            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                <fieldset>
+                    <legend>CONTACT:</legend>
+                    <div class="mb-3 mt-3">
+                        <label for="uname" class="form-label">FULL NAMES:</label><br>
+                        <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required><br>
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <label for="email" class="form-label">Email:</label><br>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"><br>
+                    </div>
+                    <label for="comment">Please leave message:</label><br>
+                    <textarea class="form-control1" rows="5" id="comment" name="text" required></textarea><br>
+                    <button type="submit" class="btn btn-warning">Submit</button><br>
+                </fieldset>
+            </form>
+            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                <legend>BOOKINGS:</legend>
+                <label for="fullname">FULL NAMES:</label>
+                <br>
+
+                <input type="text" id="fullname" name="fullname" placeholder="e.g Mary Jones">
+                <br>
+                
+                <label for="location">LOCATION:</label>
+                <br>
+
+                <input type="text" id="location"name="location"placeholder="e.g Lesotho">
+                <br>
+
+                
+                <label for="accommodation">ACCOMMODATION:</label>
+                <br>
+
+                <input type="text" id="accommodation" name="accommodation" placeholder="e.g Lancers Inn">
+                <br>
+
+                
+                <label for="cell">CELL NUMBER:</label>
+                <br>
+
+                <input id="cell"  placeholder="e.g +266...">
+                <br>
+
+                
+                <label for="checkin">CHECK IN:</label>
+                <br>
+
+                <input type="date" id="checkin">
+                <br>
+
+                
+                <label for="guests">GUESTS:</label>
+                <br>
+
+                <input type="number"id="guests" placeholder="number" oninput="calculateFullPrice()">
+                <br>
+                
+                <label for="nights">NIGHTS:</label>
+                <br>
+
+                <input type="number"id="nights" placeholder="nights to stay" oninput="calculateFullPrice()">
+                <br>
+                
+                <label for="roomchoice">ROOM CHOICE:</label>
+                <br>
+
+                <select id="roomchoice"name="roomchoice"onchange="calculateFullPrice()">
+                    <option value="300">
+                        Basic (LSL 300 per guest per night)
+                    </option>
+                    <option value="500">
+                        Proficient (LSL 500 per guest per night)
+                    </option>
+                    <option value="900">
+                        Advanced (LSL 900 per guest per night)
+                    </option>
+                </select>
+                <br>
+
+                <h4>
+                    Total: M<span id="total">300</span>
+                </h4>
+                <br>
+                <button type="submit">SUBMIT BOOKING</button>
+            </form>
+        </div>
+    </main>    
+</body>
+</html> 
+    <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="gallery.html">Previous</a></li>
+        <li class="page-item"><a class="page-link" href="index.html">1</a></li>
+        <li class="page-item"><a class="page-link" href="Tourism.html">2</a></li>
+        <li class="page-item"><a class="page-link" href="destinations.html">3</a></li>
+        <li class="page-item"><a class="page-link" href="accomodation.html">4</a></li>
+        <li class="page-item"><a class="page-link" href="gallery.html">5</a></li>
+        <li class="page-item"><a class="page-link" href="contact.html">6</a></li>
+        <li class="page-item"><a class="page-link" href="contact.html">Next</a></li>
+        <button onclick="darkmode()">Toggle dark mode</button>
+    </ul>
+    <script src="script.js"></script>
+</body>
+<footer><a href="karabomabusane18@gmail.com">karabomabusane18@gmail.com Copyright infringement 2026 Tourism Lesotho. All Rights Reserved.</a></footer>
+</html>

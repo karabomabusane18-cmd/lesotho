@@ -1,0 +1,721 @@
+    @media(max-width: 600px){
+        body{
+            inline-size: inherit;
+        }
+    }
+    h2{
+        text-decoration: underline;
+    }
+    h3{
+        text-align: center;
+        text-decoration: underline;
+    }
+    h4{
+        text-align: center;
+        font-size: 18px;
+    }
+    .three{
+        text-align: center;
+        font-size: 50px;
+    }
+    .four{
+        transition: trnsform 0.4s ease;
+        padding-top: 150px;
+        border: 4px;
+        border-radius: 27px;
+    }
+    .five{
+        padding-top: 100px;
+        overscroll-behavior: unset;
+        padding-left: 150px;
+        border: 2px;
+        border-radius: 20px;
+    }
+    .six{
+        font-size: 20px;
+        padding-left: 220px;
+        align-items: center;
+        display: flex;
+    }
+    .seven{
+        text-align: center;
+        font-size: 50px;
+    }
+    .eight{
+        border: 2px;
+        border-radius: 15px;
+    }
+    .nine{
+        overscroll-behavior: unset;
+        padding-left: 200px;
+        border: 2px;
+        border-radius: 15px;
+    }
+    :hover{
+        overscroll-behavior: inherit;
+    }
+    .eleven{
+        text-align: center;
+        font-size: 50px;
+    }
+    .pic1{
+        border: 2px;
+        border-radius: 30px;
+        width: 40%;
+    }
+    .thirteen{
+        overscroll-behavior: unset;
+        padding-top: 70px;
+        padding-left: 58%;
+        border: 2px;
+        border-radius: 30px;
+    }
+    :hover{
+        overscroll-behavior: inherit;
+    }
+    .text2{
+        font-size: 20px;
+        font-weight: bold;
+        color: blue;
+        padding-left: 600px;
+        background-color: aqua;
+    }
+    body{
+        background-image: url("flag-lesotho.avif");
+    }
+    .sixteen{
+        text-align: center;
+        font-size: 50px;
+    }
+    .seventeen{
+        border: 2px;
+        border-radius: 15px;
+    }
+    .eighteen{
+        overscroll-behavior: unset;
+        padding-left: 150px;
+        border: 2px;
+        border-radius: 15px;
+    }
+    .twenty{
+        text-align: center;
+        font-size: 50px;
+    }
+    .form{
+        height: 400px;
+        align-items: center;
+        width: 350px;
+        border: 4px;
+        border-radius: 15px;
+    }
+    .text{
+        font-size: 20px;
+        font-weight: bold;
+        color: blue;
+        background-color: aqua;
+    }
+    .six{
+        font-size: 20px;
+        padding-left: 220px;
+        align-items: center;
+        display: flex;
+    }
+    .twoone{
+        text-align: center;
+        font-size: 50px;
+    }
+    .twotwo{
+        border: 2px;
+        border-radius: 15px;
+    }
+    .twothree{
+        overscroll-behavior: unset;
+        padding-left: 150px;
+        border: 2px;
+        border-radius: 15px;
+    }
+    .twofour{
+        text-align: center;
+        font-size: 50px;
+    }
+    .twofive{
+        padding-top: 50px;
+        border: 2px;
+        border-radius: 15px;
+    }
+    .twosix{
+        padding: 50px;
+        overscroll-behavior: unset;
+        padding-left: 150px;
+        border: 2px;
+        border-radius: 15px;
+    }
+    .container1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        border-radius: 20px;
+        height: 300px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .container2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        border-radius: 20px;
+        height: 200px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .container3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        border-radius: 20px;
+        height: 300px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .card1{
+        padding-top: 150px;
+        display: flex;
+        gap: 200px;
+        align-items: center;
+        border-radius: 20px;
+        height: 300px;
+    }
+    .card2{
+        text-decoration: underline;
+        display: flex;
+        gap: 200px;
+        align-items: center;
+        border-radius: 20px;
+        height: 200px;
+    }
+    .card3{
+        display: flex;
+        gap: 200px;
+        align-items: center;
+        border-radius: 20px;
+        height: 300px;
+    }
+    .card:hover{
+        animation: reverse;
+        overscroll-behavior: inherit;
+    }
+    .table1{
+        border-style: solid;
+        border-radius: 16px;
+        width: 100%;
+    }
+    footer{
+        font-weight: bold;
+        text-align: center;
+        align-items: center;
+        padding-top: 30px;
+        background-color: rgb(0, 200, 255);
+    }
+    .pagination{
+        font-size: 20px;
+        padding-left: 220px;
+        align-items: center;
+        display: flex;
+        gap: 70px;
+    }
+    form{
+        border: solid;
+        border-radius: 16px;
+        text-align: center;
+        width: 250px;
+        height: 450px;
+        background-color: chartreuse;
+    }
+    .card-img-top{
+        border-radius: 16px;
+        padding-top: 10px;
+        width: 200px;
+        height: 250px;
+    }
+    .kings{
+        text-align: center;
+    }
+    .card4{
+        padding-left: 500px;
+        text-align: center;
+        border: solid;
+        border-radius: 18px;
+    }
+    .forty{
+        display: flex;
+        gap: 400px;
+        align-items: center;
+        border-radius: 20px;
+    }
+    .form-control1{
+        width: 100%;
+        height: 270px;
+    }
+    .Bookings{
+        border: solid;
+        border-radius: 16px;
+        text-align: center;
+        width: 250px;
+        height: 450px;
+        background-color: chartreuse;
+    }
+    *{
+        box-sizing: border-box;
+    }
+    .column{
+        float: left;
+        width: 25%;
+        padding: 10px;
+    }
+    .column img {
+        opacity: 0.8; 
+        cursor: pointer; 
+    }
+    .column img:hover {
+        opacity: 1;
+    }
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .container {
+        position: relative;
+        display: none;
+    }
+    #imgtext {
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+        color: white;
+        font-size: 20px;
+    }
+    .closebtn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: white;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    .dark-mode {
+        background-image: url("dark.jpg");
+        color: white;
+    }
+    .king{
+        padding-left: 250px;
+    }
+    @media (max-width: 1024px){
+        .three{
+            font-size: 40px;
+        }
+        .seven{
+            font-size: 40px;
+        }
+        .eleven{
+            font-size: 40px;
+        }
+        .sixteen{
+            font-size: 40px;
+        }
+        .twenty{
+            font-size: 40px;
+        }
+        .twoone{
+            font-size: 40px;
+        }
+        .twofour{
+            font-size: 40px;
+        }
+        nav .six{
+            padding-left: 20px;
+            padding-right: 20px;
+            flex-wrap: wrap;
+            gap: 10px 25px;
+        }
+        .pagination{
+            padding-left: 20px;
+            padding-right: 20px;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+        .card1{
+            gap: 40px;
+            padding-top: 0;
+            justify-content: center;
+        }
+        .card2{
+            gap: 40px;
+            padding-top: 0;
+            justify-content: center;
+        }
+        .card3{
+            gap: 40px;
+            padding-top: 0;
+            justify-content: center;
+        }
+        .container1{
+            width: 45%;
+        }
+        .container2{
+            width: 45%;
+        }
+        .container3{
+            width: 45%;
+        }
+        .king{
+            padding-left: 0;
+            display: block;
+            margin: 0 auto;
+            height: auto;
+        }
+        .forty{
+            gap: 40px;
+            justify-content: center;
+        }
+        .card4{
+            padding-left: 0;
+        }
+        .five{
+            padding-left: 50px;
+        }
+        .nine{
+            padding-left: 50px;
+        }
+        .eighteen{
+            padding-left: 50px;
+        }
+        .twothree{
+            padding-left: 50px;
+        }
+        .twosix{
+            padding-left: 50px;
+        }
+        .text2{
+            padding-left: 100px;
+        }
+        .thirteen{
+            padding-left: 20px;
+        }
+        .column{
+            width: 50%;
+        }
+    }
+    @media (max-width: 768px){
+        .three{
+            font-size: 32px;
+        }
+        .seven{
+            font-size: 32px;
+        }
+        .eleven{
+            font-size: 32px;
+        }
+        .sixteen{
+            font-size: 32px;
+        }
+        .twenty{
+            font-size: 32px;
+        }
+        .twoone{
+            font-size: 32px;
+        }
+        .twofour{
+            font-size: 32px;
+        }
+        h2{ 
+            font-size: 22px;
+        }
+        h4{
+            font-size: 16px;
+        }
+        nav .six{
+            justify-content: center;
+            font-size: 16px;
+            padding-left: 10px;
+            padding-right: 10px;
+            gap: 8px 18px;
+        }
+        nav ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        nav li{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        #src{
+            width: 100%;
+            max-width: 300px;
+        }
+        .pagination{
+            justify-content: center;
+            font-size: 16px;
+            padding-left: 0;
+            gap: 15px;
+        }
+        .card1{
+            gap: 15px;
+            height: auto;
+        }
+        .card2{
+            gap: 15px;
+            height: auto;
+        }
+        .card3{
+            gap: 15px;
+            height: auto;
+        }
+        .container1{
+            width: 48%;
+            height: auto;
+            font-size: 18px;
+            text-align: center;
+        }
+        .container2{
+            width: 48%;
+            height: auto;
+            font-size: 18px;
+            text-align: center;
+        }
+        .container3{
+            width: 48%;
+            height: auto;
+            font-size: 18px;
+            text-align: center;
+        }
+        .container2{
+            min-height: 60px;
+        }
+        .container1 img{
+            height: 220px;
+            object-fit: cover;
+        }
+        .container3 img{
+            height: 220px;
+            object-fit: cover;
+        }
+        .container1 video{
+            height: 220px;
+            object-fit: cover;
+        }
+        .container3 video{
+            height: 220px;
+            object-fit: cover;
+        }
+        .table1 td{
+            height: auto;
+            vertical-align: top;
+            padding: 6px;
+        }
+        .table1 img{
+            height: auto;
+        }
+        .table1 h3{
+            font-size: 16px;
+        }
+        .table1 p{
+            font-size: 14px;
+        }
+
+        .forty{
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        form{
+            width: 100%;
+            max-width: 420px;
+            height: auto;
+            padding-bottom: 15px;
+        }
+        .Bookings{
+            width: 100%;
+            max-width: 420px;
+            height: auto;
+            padding-bottom: 15px;
+        }
+        .form{
+            width: 100%;
+            max-width: 420px;
+            height: auto;
+            padding-bottom: 15px;
+        }
+        form input{
+            max-width: 90%;
+        }
+        form select{
+            max-width: 90%;
+        }
+        form textarea{
+            max-width: 90%;
+        }
+        .form-control1{
+            height: 150px;
+        }
+        .card-img-top{
+            width: 100%;
+            max-width: 250px;
+        }
+        .five{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .nine{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .eighteen{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .twothree{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .twosix{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .text2{
+            padding-left: 15px;
+        }
+        .pic1{
+            width: 80%;
+        }
+        #imgtext{
+            font-size: 16px;
+        }
+        .closebtn{
+            font-size: 28px;
+        }
+    }
+    @media (max-width: 480px){
+        .three{
+            font-size: 26px;
+            line-height: 1.2;
+        }
+        .seven{
+            font-size: 26px;
+            line-height: 1.2;
+        }
+        .eleven{
+            font-size: 26px;
+            line-height: 1.2;
+        }
+        .sixteen{
+            font-size: 26px;
+            line-height: 1.2;
+        }
+        .twenty{
+            font-size: 26px;
+            line-height: 1.2;
+        }
+        .twoone{
+            font-size: 26px;
+            line-height: 1.2;
+        }
+        .twofour{
+            font-size: 26px;
+            line-height: 1.2;
+        }
+        h2{
+            font-size: 20px;
+        }
+        nav .six{
+            font-size: 15px;
+            gap: 6px 14px;
+        }
+        .pagination{
+            font-size: 14px;
+            gap: 10px;
+        }
+        .pagination button{
+            width: 100%;
+            padding: 8px;
+        }
+        .card1{
+            gap: 8px;
+        }
+        .card2{
+            gap: 8px;
+        }
+        .card3{
+            gap: 8px;
+        }
+        .container1{
+            width: 49%;
+            font-size: 14px;
+        }
+        .container2{
+            width: 49%;
+            font-size: 14px;
+        }
+        .container3{
+            width: 49%;
+            font-size: 14px;
+        }
+        .container1 img{
+            height: 150px;
+        }
+        .container3 img{
+            height: 150px;
+        }
+        .container1 video{
+            height: 150px;
+        }
+        .container3 video{
+            height: 150px;
+        }
+        .table1{
+            display: block;
+            width: 100%;
+        }
+        .table1 tbody{
+            display: block;
+            width: 100%;
+        }
+        .table1 tr{
+            display: block;
+            width: 100%;
+        }
+        .table1 td{
+            display: block;
+            width: 100%;
+        }
+        .table1 th{
+            display: block;
+            width: 100%;
+        }
+        .table1 td{
+            text-align: center;
+        }
+        .column{
+            width: 100%;
+            padding: 5px 10px;
+        }
+        form{
+            max-width: 100%;
+        }
+        .Bookings{
+            max-width: 100%;
+        }
+        .form{
+            max-width: 100%;
+        }
+        footer{
+            font-size: 13px;
+            padding: 20px 10px 10px;
+            word-break: break-word;
+        }
+    }     
